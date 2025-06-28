@@ -56,7 +56,7 @@ yarn add rehype-mdx-elements
 
 ```html
 <script type="module">
-  import {rehypeMdxElements} from 'https://esm.sh/rehype-mdx-elements@1?bundle'
+  import {rehypeMdxElements} from 'https://esm.sh/rehype-mdx-elements?bundle'
 </script>
 ```
 
