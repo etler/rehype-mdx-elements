@@ -21,9 +21,9 @@
     "prepare": "husky && ts-patch install -s",
     "clean": "rm -rf dist/ types/",
     "build": "tsc",
-    "lint": "scripts/lint",
+    "lint": "npx eslint",
     "test": "tsc -p tests && vitest run --config tests/vitest.config.ts",
-    "fix": "scripts/lint --fix"
+    "fix": "npx eslint --fix"
   },
   "dependencies": {
     "unist-util-visit": "^5.0.0"
