@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "repository": "github:etler/node-simple-library-template",
   "license": "MIT",
-  "module": "dist/index.js",
   "type": "module",
+  "module": "dist/index.js",
   "types": "types/index.d.ts",
   "exports": {
     ".": {
