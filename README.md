@@ -187,7 +187,7 @@ This plugin helps mitigate security risks by:
 
 ## License
 
-[MIT][license] � [Tim Etler][author]
+[MIT][license] © [Tim Etler][author]
 
 [api-options]: #options
 
