@@ -1,9 +1,15 @@
 {
   "extends": "../tsconfig.json",
   "compilerOptions": {
+    "baseUrl": "./",
     "types": ["vitest/globals"],
     "noEmit": true,
-    "jsx": "react-jsx"
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "paths": {
+      "@/*": ["../src/*"]
+    }
   },
   "include": ["**/*.ts", "**/*.tsx"],
   "exclude": []

@@ -6,7 +6,7 @@ import type {
   MdxJsxFlowElementHast,
   MdxJsxTextElementHast,
 } from "mdast-util-mdx-jsx";
-import { rehypeMdxElements } from "@/index.js";
+import { rehypeMdxElements } from "@/index";
 
 const createMdxJsxFlowElement = (
   name: string | null,
