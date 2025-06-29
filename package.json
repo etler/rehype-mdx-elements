@@ -21,6 +21,7 @@
     "prepare": "husky && ts-patch install -s",
     "clean": "rm -rf dist/ types/",
     "build": "tsc",
+    "dev": "tsc -w",
     "lint": "npx eslint",
     "test": "tsc -p tests && vitest run --config tests/vitest.config.ts",
     "fix": "npx eslint --fix"
