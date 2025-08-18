@@ -1,7 +1,7 @@
 {
   "name": "rehype-mdx-elements",
   "version": "0.0.1",
-  "repository": "github:etler/node-simple-library-template",
+  "repository": "github:etler/rehype-mdx-elements",
   "license": "MIT",
   "type": "module",
   "module": "dist/index.js",
