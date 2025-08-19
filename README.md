@@ -182,20 +182,12 @@ This plugin helps mitigate security risks by:
 
 [MIT][license] © [Tim Etler][author]
 
-[api-options]: #options
-
-[author]: https://github.com/etler
-
-[esm]: https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c
-
 [license]: LICENSE.md
-
+[author]: https://github.com/etler
+[api-options]: #options
+[esm]: https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c
 [rehype]: https://github.com/rehypejs/rehype
-
 [remark-mdx]: https://github.com/mdx-js/mdx/tree/main/packages/remark-mdx
-
 [remark-rehype]: https://github.com/remarkjs/remark-rehype
-
 [unified]: https://github.com/unifiedjs/unified
-
 [unified-transformer]: https://github.com/unifiedjs/unified#transformer
