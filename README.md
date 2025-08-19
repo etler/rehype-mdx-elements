@@ -163,27 +163,20 @@ Transform ([`Transformer`][unified-transformer]).
     list of disallowed component names, case insensitive.
     These components will be removed from the output.
 
-## Types
-
-This package is fully typed with [TypeScript][].
-It exports the additional type [`Options`][api-options].
-
 ## Security
 
 MDX JSX elements can contain arbitrary JavaScript expressions, which is
 dangerous when executed in an untrusted environment.
 This plugin helps mitigate security risks by:
 
-1.  Only converting JSX elements to omit imports and expressions which could contain arbitrary code
-2.  Only converting JSX attributes with simple string values or are void
+1.  Only converting static JSX elements and omiting imports and expressions which could contain arbitrary code
+2.  Only converting static JSX attributes with string or void values
 3.  Allowing you to specify which component names are allowed or disallowed
 
 ## Related
 
-*   [`remark-mdx`][remark-mdx]
-     add support for MDX syntax
-*   [`remark-rehype`][remark-rehype]
-     transform markdown to HTML
+*   [`remark-mdx`][remark-mdx] adds support for MDX syntax
+*   [`remark-rehype`][remark-rehype] transforms markdown to HTML
 
 ## License
 
@@ -191,9 +184,7 @@ This plugin helps mitigate security risks by:
 
 [api-options]: #options
 
-[api-rehype-mdx-elements]: #rehypemdxelementsoptions
-
-[author]: https://yourwebsite.com
+[author]: https://github.com/etler
 
 [esm]: https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c
 
@@ -204,8 +195,6 @@ This plugin helps mitigate security risks by:
 [remark-mdx]: https://github.com/mdx-js/mdx/tree/main/packages/remark-mdx
 
 [remark-rehype]: https://github.com/remarkjs/remark-rehype
-
-[typescript]: https://www.typescriptlang.org
 
 [unified]: https://github.com/unifiedjs/unified
 
